@@ -1,0 +1,44 @@
+/* using the Decendent Selector */
+/* In Decendent Selector we use a space for styling betweem two elements*/
+/* The descendant selector matches all elements that are descendants of a specified element.*/
+.container p{
+    color: black;
+    background-color: wheat;
+    border: 2px dotted #fff;
+    width: 50%;
+    padding: 10px;
+}
+
+
+
+/* using the child selector*/
+/* In child selector we use the (>) greater symbol*/
+/* The child combinator (>) is placed between two CSS selectors*/
+/* The child selector selects all elements that are the children of a specified element. */
+.box > p{
+    color: white;
+    background-color: black;
+    width: 60%;
+    padding: 10px;
+}
+
+
+/* using Adjacent Sibling selector  */
+/* In adjacent sibling selector we use the (+) operetor between two CSS selectors */
+/* The adjacent sibling selector is used to select an element that is directly after another specific element */
+.child h1 + p {
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+/* using the General Sibling selector  */
+/* in this selector we use the (~) symbol between two CSS selectors  */
+/* The general sibling selector selects all elements that are next siblings of a specified element. */
+.child ~ p {
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    width: 50%;
+}
